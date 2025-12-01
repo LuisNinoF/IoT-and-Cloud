@@ -1,7 +1,7 @@
 # IoT-and-Cloud
 
 ## Objective
-Demonstrate multiple cases for Cloud connectivity and the Internet of Things (IoT) applications:
+Demonstrate multiple applications for Cloud connectivity and the Internet of Things (IoT):
 
 P1)  WIFI bare metal app to transmit multi-sensor data to the cloud (ThingSpeak), for trend visualization and redundancy analysis.
 
