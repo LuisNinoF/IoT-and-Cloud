@@ -1,36 +1,40 @@
 # IoT-and-Cloud
 
 ## Objective
-Demonstrate multiple applications for Cloud connectivity and the Internet of Things (IoT):
+Demonstrates bare-metal WiFi implementations on STM32 for transmitting multi-sensor data to cloud platforms across three applications::
 
-P1) WIFI bare metal app to transmit multi-sensor data to the cloud (ThingSpeak) over TCP using HTTP GET request.
-Use: trend visualization.
+P1) ThingSpeak via TCP/HTTP GET for real-time trend visualization and sensor redundancy analysis.
 
-P2) WIFI app to transmit data to own web server using an SQLite database over TCP using an HTTP POST request.
-Use: sensor data analysis.
+P2) Custom web server with SQLite database via TCP/HTTP POST for data storage and analysis.
+
+P3) AWS IoT (DynamoDB NoSQL, Lambda, API Gateway) via HTTPS POST/GET for secure transmission, storage, and verification.
 
 ### Skills Learned
 
-- WIFI implementation
-- HTTP GET and POST requests
+- Bare-metal WiFi stack (ESP AT commands)
+- HTTP GET/POST and HTTPS (TLS over TCP)
+- RESTful API design and CRUD operations
+- Database integration (SQLite, DynamoDB NoSQL)
+- Serverless AWS architecture (Lambda, API Gateway)
 - Web development for data visualization
-- Database design and query
 
 ### Tools Used
 
 - STM32CubeIDE
 - ThingSpeak
 - Batcave
+- AWS: DynamoDB, Lambda, API Gateway
 
 ### Languages
 
-- C
-- HTML + CSS + JavaScript + PHP
+- C (STM32F4 firmware)
+- HTML + CSS + JavaScript + PHP (P2 web development)
+- Python (AWS Lambda)
 
 ### Hardware
 
-- STM32F4
-- ESP8266
+- STM32F4 (Microcontroller and ADC sensors)
+- ESP8266/ESP32 (WiFi modules)
 
 ### Data Visualization
 - From P1, this example demonstrates sensor redundancy by comparing two sensor readings that should have the same value. If they differ significantly from each other, an alert can be triggered.
