@@ -24,6 +24,7 @@ P3) AWS IoT (DynamoDB NoSQL, Lambda, API Gateway) via HTTPS POST/GET for secure 
 - ThingSpeak
 - Batcave
 - AWS: DynamoDB, Lambda, API Gateway
+- Postman API platform
 
 ### Languages
 
