@@ -7,7 +7,7 @@ P1) ThingSpeak via TCP/HTTP GET for real-time trend visualization and sensor red
 
 P2) Custom web server with SQLite database via TCP/HTTP POST for data storage and analysis.
 
-P3) AWS IoT (DynamoDB NoSQL, Lambda, API Gateway) via HTTPS POST/GET for secure transmission, storage, and verification.
+P3) AWS IoT (DynamoDB NoSQL, Lambda, API Gateway) via HTTPS POST/GET for secure transmission, storage, and verification..
 
 ### Skills Learned
 
